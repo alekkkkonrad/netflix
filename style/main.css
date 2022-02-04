@@ -1,0 +1,109 @@
+:root{
+    --vermelho:#E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*INIXIO HEADER*/
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header .logon a{
+    text-decoration: none;
+    color: var(--vermelho);
+}
+header .logon{
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+.container{
+    margin-left: 30px;
+}
+/*FIM HEADER*/
+/*INICIO MAIN*/
+
+.tela-principal{
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url('/resources/imgs/capa-house.jpg');
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tela-principal .container{
+    max-width: 80%;
+}
+
+.tela-principal .titulo{
+    margin-bottom: 0.5%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tela-principal .descricao{
+    margin-bottom: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tela-principal .botao-tp{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.tela-principal .botao-tp:hover{
+    background-color: white;
+    color: black;
+}
+
+.tela-principal .botao-tp i{
+    margin-right: 5px;
+}
+/*FIM MAIN*/
+
+.carrosel{
+    margin-top: 10px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
